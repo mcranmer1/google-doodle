@@ -1,0 +1,202 @@
+// Template for Google Homepage
+@import "doodle-template";
+
+/* Your Awesome Doodle */
+
+// External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
+
+/* Doodle Stage */
+#stage {
+  height: 300px;
+  width: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+#Layer_2 {
+  transform: scale(.55);
+  position: absolute;
+  left: 90px;
+  top: 85px;
+}
+
+.house {
+  transform: scale(.25);
+  position: absolute;
+  top: -85px;
+  right: 175px;
+}
+
+.tail1 {
+  animation: wagtail .5s 1s ease-in-out infinite alternate;
+}
+
+.tail2 {
+  animation: wag .25s 5s ease-in-out infinite alternate;
+}
+
+.tail3 {
+  animation: wag 1s ease-in-out infinite alternate;
+
+}
+
+@keyframes wag {
+  0% { 
+    transform: rotate(-2deg);
+    transform: translateX(-2px) translateY(-2px);
+  }
+	50% { 
+    transform: rotate(0); 
+    transform: translateX(0px) translateY(0px);
+  }
+	100% { 
+    transform: rotate(2deg); 
+    transform: translateX(0px) translateY(0px);
+  }
+}
+
+@keyframes wagtail {
+  0% { 
+    transform: translateX(0px) translateY(-3px);
+  }
+	50% { 
+    transform: translateX(0px) translateY(0px);
+  }
+	100% { 
+    transform: translateX(0px) translateY(1px);
+  }
+}
+
+.cloud {
+  width: 25%;
+  position: absolute;
+  top: 1px;
+  left: -150px;
+  animation: float 20s 1s linear infinite;
+}
+
+.cloud2 {
+  width: 20%;
+  position: absolute;
+  top: 60px;
+  left: -120px;
+  animation: float 15s 8s linear infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(800px);
+  }
+}
+
+.paw1 {
+  position: relative;
+  bottom: 100px;
+  left: 275px;
+  transform: rotate(-90deg) scale(.03);
+  animation: paws 4s ease-in;
+}
+
+.paw2 {
+  position: relative;
+  bottom: 680px;
+  left: 225px;
+  transform: rotate(-90deg) scale(.03);
+  animation: paws 10s ease-in;
+}
+
+.paw3 {
+  position: relative;
+  bottom: 1220px;
+  left: 175px;
+  transform: rotate(-90deg) scale(.03);
+  animation: paws 16s ease-in;
+}
+
+.paw4 {
+  position: relative;
+  top: -1800px;
+  left: 125px;
+  transform: rotate(-90deg) scale(.03);
+  animation: paws 22s ease-in;
+}
+
+.paw5 {
+  position: relative;
+  top: -2342px;
+  left: 75px;
+  transform: rotate(-90deg) scale(.03);
+  animation: paws 28s ease-in;
+}
+
+.paw6 {
+  position: relative;
+  top: -2920px;
+  left: 25px;
+  transform: rotate(-90deg) scale(.03);
+  animation: paws 34s ease-in;
+}
+
+.paw7 {
+  position: relative;
+  top: -3465px;
+  left: -25px;
+  transform: rotate(-90deg) scale(.03);
+  animation: paws 40s ease-in;
+}
+
+.paw8 {
+  position: relative;
+  top: -4042px;
+  left: -75px;
+  transform: rotate(-90deg) scale(.03);
+  animation: paws 46s ease-in;
+}
+
+.paw9 {
+  position: relative;
+  top: -4588px;
+  left: -125px;
+  transform: rotate(-90deg) scale(.03);
+  animation: paws 52s ease-in;
+}
+
+.paw10 {
+  position: relative;
+  top: -5162px;
+  left: -175px;
+  transform: rotate(-90deg) scale(.03);
+  animation: paws 58s ease-in;
+}
+
+.paw11 {
+  position: relative;
+  top: -5710px;
+  left: -225px;
+  transform: rotate(-90deg) scale(.03);
+  animation: paws 64s ease-in;
+}
+
+.paw12 {
+  position: relative;
+  top: -6285px;
+  left: -275px;
+  transform: rotate(-90deg) scale(.03);
+  animation: paws 70s ease-in;
+}
+
+@keyframes paws {
+  0% {
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+
+
