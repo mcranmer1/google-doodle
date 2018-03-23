@@ -238,3 +238,20 @@ input {
     opacity: 1;
   }
 }
+
+.plane {
+  transform: scale(0.75);
+  position: absolute;
+  top: -20px;
+  left: -550px;
+  animation: plane 12s 4s linear forwards;
+}
+
+@keyframes plane {
+  0% {
+    transform: translateX(-550px);
+  }
+  100% {
+    transform: translateX(1500px);
+  }
+}
